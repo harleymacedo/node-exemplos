@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/12/bin/postgres "-D" "/Users/harleymacedo/Library/Application Support/Postgres/var-12" "-p" "5432"

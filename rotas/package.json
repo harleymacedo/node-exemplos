@@ -1,0 +1,20 @@
+{
+  "name": "rotas",
+  "version": "1.0.0",
+  "description": "Um exemplo para trabalhar o assunto Rotas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Exemplo",
+    "Rotas",
+    "Express"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "cookie",
+  "version": "1.0.0",
+  "description": "Um projeto básico para uso de cookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Projeto",
+    "basico",
+    "cookie"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1"
+  }
+}

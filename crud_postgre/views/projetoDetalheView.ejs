@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./head') %>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3>Detalhe do Projeto</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class='card'>
+                    <div class="card-body">
+                        <p class="card-title  font-weight-bold"> ID: <%= projeto.rows[0].id %> </p>
+                        <p class="card-text">
+                            <span>Nome: </span><%= projeto.rows[0].nome %> <br>
+                            <span>Tempo: </span><%= projeto.rows[0].tempo %>
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div>    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "Um projeto que usa maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Projeto",
+    "basico",
+    "maps"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^1.1.0",
+    "@googlemaps/google-maps-services-js": "^2.4.2",
+    "express": "^4.17.1"
+  }
+}

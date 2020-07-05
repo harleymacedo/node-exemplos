@@ -1,0 +1,20 @@
+{
+  "name": "body_parser_module",
+  "version": "1.0.0",
+  "description": "Uso de body-parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Forms",
+    "BodyParser",
+    "Dados"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

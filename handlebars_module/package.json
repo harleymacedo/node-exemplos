@@ -1,0 +1,21 @@
+{
+  "name": "handlebars_module",
+  "version": "1.0.0",
+  "description": "Um teste para handlebars",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Handlebars",
+    "teste",
+    "View"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "nodemon": "^2.0.3"
+  }
+}

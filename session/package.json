@@ -1,0 +1,20 @@
+{
+  "name": "session",
+  "version": "1.0.0",
+  "description": "Uma aplicação para tratar session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Session",
+    "dados",
+    "servidor"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  }
+}

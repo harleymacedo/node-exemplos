@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./head') %>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3>Login</h3>
+        </div>
+        <div class="row">             
+            <div class="col col-6">
+                <form action="/login/verify" method="POST">
+                    <label>Usuário: <input type="text" name="usuario" class="form-control" /></label>
+                    <label>Senha: <input type="password" name="senha" class="form-control" /></label>
+                    <input type="submit" value="Entrar" class="btn btn-primary" />
+                </form>
+            </div>  
+        </div>    
+    </div>
+    
+</body>
+</html>

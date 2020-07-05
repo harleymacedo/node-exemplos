@@ -1,0 +1,21 @@
+{
+  "name": "api_consumo",
+  "version": "1.0.0",
+  "description": "Um projeto para consumo de API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Projeto",
+    "api",
+    "consumo"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1"
+  }
+}

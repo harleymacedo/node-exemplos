@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./head') %>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3>Lista de Projetos</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table table-dark">
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Tempo</th>
+                    </tr>
+                    <% projetos.rows.forEach(function(row) { %>
+                        <tr>
+                            <td><%= row.id%></td>
+                            <td><%= row.nome%></td>
+                            <td><%= row.tempo%></td>
+                        </tr>
+                     <% }) %>
+                </table>
+            </div>  
+        </div>    
+    </div>
+    
+</body>
+</html>
