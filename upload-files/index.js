@@ -1,16 +1,15 @@
 const express = require("express")
 const app = express()
-const multer = require("multer")
-app.set("view engine", "ejs")
-const upload = multer({dest: "uploads/"})
+const handlebars = require('express-handlebars')
+
+app.set("view engine", "handlebars")
+app.engine('handlebars', handlebars({defaultLayout: null}))
 
 app.get("/", (req, res) => {
     res.render("index")
 })
-app.post("/upload", upload.single("file"), (req, res) => {
-    res.send("Arquivo recebido!")
-})
+app.post("/upload", )
 
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log("Servidor rodando!")
 })
