@@ -5,9 +5,10 @@ function listarTodos(req, res) {
 }
 
 function detalheProduto(req, res) {
-    res.status(200)
-    res.type('html')
-    res.send('Detalhe do produto ' + req.params.codigo)
+    // res.status(200)
+    // res.type('html')
+    // res.send('Detalhe do produto ' + req.params.codigo)
+    res.render('detalheView', {dado: req.params.codigo})
 }
 
 module.exports = {listarTodos, detalheProduto}
