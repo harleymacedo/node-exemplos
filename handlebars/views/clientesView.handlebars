@@ -1,0 +1,16 @@
+<h4>Pessoas</h4>
+{{#each pessoas}}
+    {{this.nome}}
+{{/each}}
+
+{{#if cidade}}
+    {{this}}
+{{else}}
+    <p>Cidade não informada</p>
+{{/if}}
+
+{{#each pessoas}}
+    {{#with this}}
+        {{nome}}
+    {{/with}}
+{{/each}}
